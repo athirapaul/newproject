@@ -10,3 +10,12 @@ import Foundation
 
 print("Hello, World!")
 
+var a:Int
+var b:Bool
+//if(true < false)
+//{
+ //   print("thanks")
+//}
+
+var c:Double
+var d:Float
