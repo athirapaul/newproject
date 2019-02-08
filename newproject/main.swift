@@ -19,3 +19,17 @@ var b:Bool
 
 var c:Double
 var d:Float
+var s:String = "Hello"
+var str = String()
+
+str = "Hello world"
+var p:String
+    p = "Call me"
+print ("p,str")
+print(str.description)
+print(s.count)
+print(str.hasPrefix("Hello"))
+print(p.hasSuffix("me"))
+print(str.lowercased())
+print(str.uppercased())
+
