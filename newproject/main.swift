@@ -97,3 +97,58 @@ print(y)
 //declaration using array<type>()
 var z = Array<Int>()
 z.append(5000)
+
+
+
+//var r = [1,2,3,4,5]
+//print(r[0])
+//print((r[1]*r[2]*r[3]*r[4]),r[0]*r[2]*r[3]*r[4],r[0]*r[1]*r[3]*r[4],r[0]*r[1]*r[2]*r[4],r[0]*r[1]*r[3]*r[4],r[0]*r[1]*r[2]*r[3])
+//set example
+
+print("------- set data structure")
+ var s1 = Set<String>()
+s1.insert("Canada")
+s1.insert("India")
+s1.insert("Russia")
+s1.insert("Brazil")
+print(s1)
+
+//will not insert
+s1.insert("India")
+print(s1)
+//will insert
+s1.insert("india")
+print(s1)
+
+
+var d = [1 : "Abc", 2 : "Hello"]
+print("dictionary")
+print(d)
+
+d[3] = "Hello World"
+print(d)
+print(d[4])
+
+var country = Dictionary<String, String>()
+
+country.updateValue("INDIA", forKey: "IND")
+country.updateValue("BRAZIL", forKey:"BRA")
+country.updateValue("CHINA", forKey: "CHI")
+country.updateValue("MEXICO", forKey: "MEX")
+
+print(country)
+for i in country
+{
+ print(i)
+    print(i.key, i.value)
+}
+print("------------")
+ for(k,v) in country
+ {
+    print(k,v)
+}
+
+d = [:]
+print(d.count)
+d.removeAll()
+
